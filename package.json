@@ -1,0 +1,21 @@
+{
+  "name": "lkm-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "concurrently \"npm run client\" \"npm run server\" ",
+    "client": "cd client && npm start",
+    "server": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^3.5.1",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2",
+    "nodemon": "^1.17.2",
+    "uuid": "^3.2.1"
+  }
+}

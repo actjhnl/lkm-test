@@ -1,0 +1,11 @@
+.ManageBar{
+    padding:20px;
+    margin:20px 0;
+    background-color: dimgrey; 
+}
+Button{
+    margin: 0 7px;
+}
+.NavbarBrand{
+    color:whitesmoke
+}

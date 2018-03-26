@@ -1,0 +1,40 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@devexpress/dx-react-core": "^1.1.1",
+    "@devexpress/dx-react-grid": "^1.1.1",
+    "@devexpress/dx-react-grid-bootstrap4": "^1.1.1",
+    "apollo-cache-inmemory": "^1.1.11",
+    "apollo-client": "^2.2.7",
+    "apollo-link-http": "^1.5.3",
+    "bootstrap": "^4.0.0-beta.3",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.8.0",
+    "input-moment": "^0.4.0",
+    "moment": "^2.21.0",
+    "react": "^16.2.0",
+    "react-apollo": "^2.0.4",
+    "react-bootstrap-time-picker": "^1.0.3",
+    "react-day-picker": "^7.1.4",
+    "react-dom": "^16.2.0",
+    "react-input-moment": "^1.7.7",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.1",
+    "react-simple-timefield": "^2.0.0",
+    "react-times": "^3.0.0",
+    "reactstrap": "^5.0.0-beta.3",
+    "recompose": "^0.26.0",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "uuid": "^3.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:4000/"
+}
